@@ -1,0 +1,27 @@
+# Node / Vite dependencies and build output
+**/node_modules/
+**/dist/
+
+# Java / Spring Boot build output
+**/target/
+**/build/
+
+# Uploaded media (keep local uploads out of Git)
+**/uploads/
+
+# Local environment files; keep the example template
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local Spring Boot credentials
+/campus-event-management/src/main/resources/application-local.properties
+
+# IDE and operating system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local safety copy
+/safety-backup-2026-10-12/
